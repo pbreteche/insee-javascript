@@ -1,0 +1,25 @@
+.affichage-principal {
+    display: flex;
+}
+
+.visioneuse img {
+    width: 256px;
+}
+
+.miniatures {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.miniatures img {
+    width: 64px;
+    filter: grayscale(80%);
+    cursor: pointer;
+}
+
+.miniatures img:hover {
+    width: 64px;
+    filter: grayscale(0%) saturate(150%);
+}
