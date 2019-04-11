@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fonctions</title>
+</head>
+<body>
+
+    <script>
+    const lib = {};
+    lib.saluer = function(prenom, langue='fr', nom) {
+        console.log(prenom, langue, nom);
+    }
+
+    lib.saluer('Pierre');
+    lib.saluer('Pierre', null);
+    lib.saluer('Pierre', null, 'Bretéché');
+    lib.saluer('Pierre', 'en');
+    lib.saluer('Pierre', 'en', null);
+    </script>
+</body>
+</html>

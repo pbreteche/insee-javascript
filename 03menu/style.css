@@ -1,0 +1,26 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav > ul {
+    display: flex;
+    background: #123;
+    color: beige;
+}
+
+nav a {
+    padding: 1em;
+    display: block;
+}
+
+nav > ul ul {
+    position: absolute;
+    background: beige;
+    color: #123;
+    display: none;
+}
+
+nav > ul ul.active {
+    display: block;
+}
