@@ -17,6 +17,18 @@ const variable4; // portée de bloc + réaffectation interdite
 
 123 == "123.0" // true
 
+s0 =  'Bonjour'
+s1 = new String('Bonjour')
+s2 = new String('Bonjour')
+s0 == s1 // true
+s1 == s2 // false
+
+'bonjour'.split('o')
+
+// /([a-z]+)/i.match('bonjour')
+
+['Vive', 'le', 'js'].join(' ')
+
 /**
  * structures de contrôle
  */
