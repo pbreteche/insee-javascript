@@ -16,16 +16,17 @@
     <form method="POST" id="formulaire-inscription">
         <div>
             <label for="user-email">Email</label>
-            <input type="email" name="email" id="user-email">
+            <input type="email" required name="email" id="user-email">
             <p class='erreur'></p>
         </div>
         <div>
             <label for="user-password">Mot de passe</label>
-            <input type="password" name="password" id="user-password">
+            <input type="password" required pattern=".{10,}" name="password" id="user-password">
             <p class='erreur'></p>
         </div>
         <button disabled>S'inscrire</button>
     </form>
+    <button onclick="confirm('Êtes-vous d\'accord')">Conditions d'utilisations</button>
     <script src="script.js"></script>
 </body>
 </html>

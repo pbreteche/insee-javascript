@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
     document.addEventListener('click', function(){
         if (menu.enCoursOuverture) {
+            // anciennement:
+            // menu.enCoursOuverture.style.display = 'block;
             menu.enCoursOuverture.classList.add('active');
         }
         if (menu.actuellementOuvert) {
