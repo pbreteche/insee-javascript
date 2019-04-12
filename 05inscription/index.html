@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inscription</title>
+    <style>
+        .erreur {
+            color: darkred;
+            background: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <form method="POST" id="formulaire-inscription">
+        <div>
+            <label for="user-email">Email</label>
+            <input type="email" name="email" id="user-email">
+            <p class='erreur'></p>
+        </div>
+        <div>
+            <label for="user-password">Mot de passe</label>
+            <input type="password" name="password" id="user-password">
+            <p class='erreur'></p>
+        </div>
+        <button disabled>S'inscrire</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
